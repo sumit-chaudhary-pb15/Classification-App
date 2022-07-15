@@ -1,0 +1,5 @@
+streamlit
+pandas
+matplotlib
+plotly==5.9.0
+scikit-learn
