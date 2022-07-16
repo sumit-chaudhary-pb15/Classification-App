@@ -13,7 +13,7 @@ from get_predictions_page import get_predictions_page
 st.title("Flower species prediction AI/ML application")
 
 pages = ["home", "view_raw_dataset", "exploratory_data_analysis", "model_development", "model_predictions"]
-page = st.sidebar.selectbox("NAVIGATION", pages)
+page = st.sidebar.radio("NAVIGATION", pages)
 
 # Loading raw dataset
 iris_data = pd.read_csv("iris_dataset.csv")
