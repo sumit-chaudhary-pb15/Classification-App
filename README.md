@@ -1,2 +1,1 @@
-# Classification-App
-
+# Streamlit Classification application for Iris dataset
